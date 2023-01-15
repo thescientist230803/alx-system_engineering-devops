@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# create a new ssh key using keygen with passphrase betty and llength of 4096
+
+ssh-keygen -r school -b 4096 -N betty
