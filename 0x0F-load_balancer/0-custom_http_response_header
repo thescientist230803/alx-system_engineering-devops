@@ -13,4 +13,4 @@ sudo mkdir -p /var/www/html
 echo 'Hello World' > /var/www/html/index.html
 sed -i '/listen 80 default_server;/a rewrite ^/redirect_me https://bayona.me permanent;' /etc/nginx/sites-available/default
 sed -i '/listen 80 default_server;/a add_header X-Served-By $hostname;' /etc/nginx/sites-available/default
-service nginx start
+sudo service nginx start
