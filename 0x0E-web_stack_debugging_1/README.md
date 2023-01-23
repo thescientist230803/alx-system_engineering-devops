@@ -1,1 +1,1 @@
-nginx 80 listen
+nginxe listens to port 80
